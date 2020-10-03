@@ -40,16 +40,23 @@
         app:layout_constraintBottom_toBottomOf="parent">
 
         <Button
+            android:id="@+id/btnSignIn"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textSize="19sp"
+            android:background="@drawable/btn_bg_white"
             android:layout_margin="10dp"
             android:text="SIGN IN"/>
 
         <Button
+            android:id="@+id/btnSignUp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
+            android:textColor="@android:color/white"
+            android:textSize="19sp"
+            android:background="@drawable/btnbgn"
             android:layout_margin="10dp"
             android:text="SIGN UP"/>
 
