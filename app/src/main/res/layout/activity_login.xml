@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:layout_width="58dp"
+        android:layout_height="34dp"
+        android:src="@drawable/ic_baseline_arrow_back_24">
+
+        <LinearLayout
+            android:layout_width="360dp"
+            android:layout_height="77dp"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif"
+            android:gravity="left"
+            android:text="Welcome to Login"
+            android:textColor="@android:color/black"
+            android:textSize="35sp"
+            android:textStyle="bold">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="360dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:text="Please fill E-mail & password to login your app account."
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:text=" Sign Up"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp" />
+
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="360dp"
+        android:layout_height="77dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:text=" Sign Up"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:text="E-mail"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+        <Button
+            android:layout_width="359dp"
+            android:layout_height="54dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:background="@drawable/shape"
+            android:hint="productexperience@gmail.com.com"
+            android:padding="10dp"
+            android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:text="Password" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="359dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/shape"
+        android:hint="***************"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="360dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="Remember me" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:gravity="right"
+        android:text="Forgot Password ?"
+        android:orientation="horizontal"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="359dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/button_background"
+        android:padding="10dp"
+        android:text="Login Now"
+        android:textAllCaps="false"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"/>
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/button_color"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:orientation="horizontal"
+                android:text="Sign Up" />
+
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginHorizontal="20dp"
+                android:background="@drawable/button_colors"
+                android:padding="10dp"
+                android:textAllCaps="false"
+                android:orientation="horizontal"
+                android:text="Sign Up" />
+
+    </Button>
+        </LinearLayout>
+</LinearLayout>
