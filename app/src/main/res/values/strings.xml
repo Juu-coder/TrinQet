@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">TrinQet</string>
+
+    <!-- Strings for On Boarding Screen -->
+
+    <!--Titles-->
+    <string name="first_slide_title">Original Product</string>
+    <string name="second_slide_title">Free Shipping</string>
+    <string name="third_slide_title">Fast Delivery</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">Original with 1000 product from a lot of different brand across the world. Buy so easy with just simple steps.</string>
+    <string name="second_slide_desc">We offer free shipping for our first time users.</string>
+    <string name="third_slide_desc">We delivery within 3 days of purchase.</string>
+
 </resources>
