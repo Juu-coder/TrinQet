@@ -9,10 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".OnboardingActivity" />
         <activity android:name=".RegistrationActivity" />
         <activity android:name=".ResetPasswordActivity" />
         <activity android:name=".MainActivity" />
+        <activity android:name=".ResendCode" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
