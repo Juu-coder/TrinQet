@@ -1,17 +1,5 @@
 <resources>
     <string name="app_name">TrinQet</string>
-<<<<<<< HEAD
-    <string name="title_activity_login">LoginActivity</string>
-    <string name="prompt_email">Email</string>
-    <string name="prompt_password">Password</string>
-    <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
-    <string name="welcome">"Welcome !"</string>
-    <string name="invalid_username">Not a valid username</string>
-    <string name="invalid_password">Password must be >5 characters</string>
-    <string name="login_failed">"Login failed"</string>
-=======
-
     <!-- Strings for On Boarding Screen -->
 
     <!--Titles-->
@@ -23,6 +11,4 @@
     <string name="first_slide_desc">Original with 1000 product from a lot of different brand across the world. Buy so easy with just simple steps.</string>
     <string name="second_slide_desc">We offer free shipping for our first time users.</string>
     <string name="third_slide_desc">We delivery within 3 days of purchase.</string>
-
->>>>>>> 28b52de80d6b3c161a95369442e943e86046b275
 </resources>
