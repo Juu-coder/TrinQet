@@ -17,6 +17,7 @@ public class OnboardingActivity extends AppCompatActivity {
     private ViewPager viewPager;
     private CircleIndicator indicator;
     private Button btnSignUp;
+    private Button btnSignIn;
     private CustomOnboardingPageAdapter onboardingPagerAdapter;
 
     @Override
@@ -32,11 +33,21 @@ public class OnboardingActivity extends AppCompatActivity {
         indicator.setViewPager(viewPager);
 
         btnSignUp = findViewById(R.id.btnSignUp);
+        btnSignIn = findViewById(R.id.btnSignIn);
 
         btnSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(OnboardingActivity.this, RegistrationActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        btnSignIn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(OnboardingActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }

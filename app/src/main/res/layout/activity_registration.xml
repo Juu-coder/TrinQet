@@ -129,7 +129,7 @@
                 android:background="@drawable/edittextbgd"/>
 
             <Button
-                android:id="@+id/btsignup"
+                android:id="@+id/btnSignUp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/btnbgn"
@@ -154,7 +154,7 @@
                     android:textSize="19sp"/>
 
                 <TextView
-                    android:id="@+id/tvSignin"
+                    android:id="@+id/tvSignIn"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Sign In"
