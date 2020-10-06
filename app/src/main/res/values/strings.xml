@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">TrinQet</string>
-====== HEAD
     <string name="title_activity_login">LoginActivity</string>
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password</string>
@@ -13,8 +12,6 @@
     <string name="key_preference">
         Please fill E-mail password to login your app account. <a> Sign Up</a>
     </string>
-=======
-
     <!-- Strings for On Boarding Screen -->
 
     <!--Titles-->
@@ -26,6 +23,4 @@
     <string name="first_slide_desc">Original with 1000 product from a lot of different brand across the world. Buy so easy with just simple steps.</string>
     <string name="second_slide_desc">We offer free shipping for our first time users.</string>
     <string name="third_slide_desc">We delivery within 3 days of purchase.</string>
-
->>>>>>> 28b52de80d6b3c161a95369442e943e86046b275
 </resources>
